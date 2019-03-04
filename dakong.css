@@ -189,7 +189,7 @@ cursor: url(https://cdn.discordapp.com/attachments/460145928850898945/5511012556
 #favoriteDropdownMenu>li>a>span.label.label-default{margin-right:1px;}
 
 
-#board-info h1 > a.badge.badge-live::after { font-size: 12px; content: " 사장출근"; }
+#board-info h1 > a.badge.badge-live::after {font-size: 12px; content: "사장출근";}
 
 #article-list .article-list-row:hover, #article-list div.article-list-row.notice:hover {
     transform: scale(1.025);
