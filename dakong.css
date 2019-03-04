@@ -479,3 +479,6 @@ footer a:hover {
 #article-list > .article-list-row > .item > .list-time {
     border: none;
 }
+
+/*스트리머메뉴*/
+#favoriteDropdownMenu>li>a>span.label.label-default{margin-right: 1px}
