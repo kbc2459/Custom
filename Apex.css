@@ -1,0 +1,174 @@
+* { font-family: 'oACYCZno';}
+
+/*바디*/
+body{height:auto;background:#fff}
+
+/*로고*/
+header .container .row  .col-xs-4 img{display:none}
+header .row>div:nth-child(1)>a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background: url(https://cdn.discordapp.com/attachments/460145928850898945/551441278764843021/apex.png) no-repeat;
+  background-size: auto 50px;
+  position:relative;
+top:4px
+}
+
+/*헤더바*/
+header #header-bar>.row{border:none;background:#C2293B;border-radius: 10px;}
+header #header-bar #header-top-notice strong.notice-badge{border:2px solid #fff;background:#C2293B}
+header #header-bar a.dropdown-toggle{color:#fff}
+header #header-bar #header-top-notice a{color:#fff}
+header-top-notice a{color:#fff}
+
+/*검색영역*/
+header #right-search-form>input[type=text]{border-radius: 5px;border:3px solid #C2293B}
+header #right-search-form>#right-search-btn{color:#C2293B}
+
+/*드랍메뉴*/
+.dropdown-menu{background:#C2293B;}
+.fa-remove:before, .fa-close:before, .fa-times:before{color:#fff}
+#favoriteDropdownMenu>li>a>span.name{color:#fff}
+.label-default{background:none}
+#playgroundDropdownMenu a{color:#fff}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{color: #C2293B !important;font-weight: bold;}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover span{color: #C2293B !important;font-weight: bold;}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover .fa-remove:before, .fa-close:before, .fa-times:before{color: #C2293B !important;}
+#latestDropdownMenu .name{color:#fff}
+.dropdown-menu>li>a{color:#fff}
+.dropdown-menu-right>li>a:hover{font-weight: normal;}
+
+/*메뉴*/
+#main .menu-wrapper>.header{background:#C2293B ;border-radius: 5px 5px 0 0;}
+#main .menu-wrapper>a>em{color:#C2293B }
+#main .menu-wrapper>a>i.fa.fa-square{color:#C2293B }
+#main .menu-wrapper{border: 1px solid #C2293B ;border-radius: 7px 7px 0 0;}
+#main .menu-wrapper>a:hover {background: #C2293B4d;color: #C2293B ;}
+#main .menu-wrapper .spacer{background:#C2293B82}
+
+/*인포영역*/
+#board-info{height: auto;}
+#board-info #board-info-profile-img { width: 5em;border-radius: 50%;background: #fff;border: 5px solid #C2293B ;}
+#board-info #board-info-profile-img:hover {border-radius: 15px 50% 50% 15px;transition:all 0.5s}
+#board-info .pull-right {float: left!important;margin-right: 20px;position: relative;top: -7px;}
+#board-info h1>a{color:#C2293B ; font-weight:bold}
+#board-info #board-info-bottom a{color:#C2293B }
+
+/*게시판*/
+#article-list #article-option-area>#article-option-area-toggle-btn{display:none}
+#article-list>.article-list-row>.item>.list-header>span{background-color: #C2293B;}/*추천수*/
+#article-list>.article-list-row>.item>.list-title>small.comment-count{color: #C2293B;}/*댓글수*/
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{color:#C2293B}/*게시판닉*/
+#article-list #article-list-category{border-color:#C2293B}
+#article-content-wrapper>.header{border-color:#C2293B}
+#main #main-content>div.frame{border:none}/*인기글*/
+#article-list>.article-list-row{border-right:none}
+#article-list>.article-list-row:hover{}
+
+/*페이지 넘버*/
+.pagination>li>a, .pagination>li>span{color:#C2293B}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{background:#C2293B;color:#fff}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{background-color: #C2293B;border-color: #C2293B;}
+
+/*버튼*/
+.btn-primary:hover{background-color:#C2293B}/*글쓰기*/
+.btn-primary{background:#C2293B;border:none}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover{background-color:#C2293B;border-color:#C2293B}
+
+
+/*게시글*/
+#article-reply-area > .header h5{color:#C2293B}
+
+/*댓글*/
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged{color:#C2293B}
+.fr-toolbar{border-top: 3px solid #C2293B}
+.fr-toolbar.fr-top i:before{color:#C2293B}
+.fr-toolbar .fr-command.fr-btn.fr-dropdown::after, .fr-popup .fr-command.fr-btn.fr-dropdown::after{border-top: 4px solid #C2293B;}
+.reply-menu a{color:#C2293B}
+.reply-menu a:hover{color:#C2293B}
+#lastc{color:#C2293B}
+#lastc:focus, #lastc:hover{color:#C2293B}
+
+/*푸터*/
+footer a{color:#C2293B}
+footer a:hover{color:#C2293B}
+
+/*게시판 텝메뉴*/
+#article-list #article-list-category>a{border-radius:0 0 50% 50%;width:auto;margin:0 5px  5px 0;border:2px solid #C2293B;background:#fff;border-top:none}
+#article-list #article-list-category{background:#fff}
+#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover{border-color:#C2293B;transition:all 0.5s}
+.fa-home:before{color:#C2293B}
+
+/*공지사항*/
+#article-list>.article-list-row.notice{background-color: #fff;border: 2px solid #C2293B;border-radius: 10px;margin-bottom: 5px;}
+
+/*상단인원*/
+/* #board-info #viewers-area .fa-user:before{
+     color: rgba(10,59,84,0);
+    content: url(https://static-cdn.jtvnw.net/badges/v1/9533d98f-2688-4fcd-8e04-b8bbd88f1e3a/1);
+} */
+
+#board-info #viewers-area #viewers:before{
+content: "에펙인";
+cursor: text;
+}
+#board-info #viewers-area #viewers:after {
+    content: "명 파밍중";
+    cursor: text;
+}
+/*키프레임*/
+.fa-heart:before{display:inline-block;transition:all 0.3s;animation: heat 1s infinite;color:#C2293B}
+@keyframes heat{
+
+    0%{
+       transform: scale(1);
+}
+50%{
+       transform: scale(1.32);
+}
+100%{
+       transform: scale(1);
+}
+
+    }
+@keyframes mari{
+
+    0%{
+      top:0;
+}
+25%{
+      top:-2px
+}
+50%{
+        top:0px
+}
+75%{
+        top:2px
+}
+100%{
+        top:0px
+}
+    }
+
+
+/*마우스 포인터*/
+/* *{
+cursor: url(https://cdn.discordapp.com/attachments/460145928850898945/551101255687208989/mari.png) 4 5, auto !important;
+}
+#aw0{
+cursor: url(https://cdn.discordapp.com/attachments/460145928850898945/551101255687208989/mari.png) 4 5, auto !important;
+}*/
+
+/*게시물이동*/
+#article-neighbor-list{padding: 0 1em;}
+#article-neighbor-list div{
+ border: 2px solid #C2293B;
+    border-radius: 7px;
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+#article-neighbor-list div .indicator{margin-left:20px}
+.author{color: #C2293B;}
+
+#favoriteDropdownMenu>li>a>span.label.label-default{margin-right:1px;}
