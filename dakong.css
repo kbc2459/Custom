@@ -401,7 +401,7 @@ footer a:hover {
 }
 
 /*키프레임*/
-mall.favo i.fa.fa-heart:before {
+small.favo i.fa.fa-heart:before {
     display: inline-block;
     transition: all 0.3s;
     animation: heat 1s infinite;
