@@ -162,7 +162,7 @@ header #right-search-form > #right-search-btn {
     margin-right: 20px;
     position: relative;
     top: -7px;
-    animation: da 1s infinite
+    animation: da 20s infinite
 }
 
 #board-info h1 > a {
@@ -450,9 +450,18 @@ footer a:hover {
     0%{
         left: 0px
     }
+    25%{
+        left: -240px
+    }
+    50%{
+        left: -480px
+    }
+    75%{
+        left: -240px
+    }
     
     100%{
-        left: -480px
+        left: 0px
     }
     
 }
