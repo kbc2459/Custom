@@ -159,10 +159,10 @@ header #right-search-form > #right-search-btn {
 }
 
 #board-info .pull-right {
-    float: left !important;
     margin-right: 20px;
     position: relative;
     top: -7px;
+    animation: da 1s infinite
 }
 
 #board-info h1 > a {
@@ -444,6 +444,17 @@ footer a:hover {
     100% {
         top: 0px
     }
+}
+
+@keyframes da {
+    0%{
+        left: 0px
+    }
+    
+    100%{
+        left: -480px
+    }
+    
 }
 
 
