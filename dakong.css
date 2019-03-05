@@ -450,19 +450,38 @@ footer a:hover {
     0%{
         left: 0px
     }
-    25%{
-        left: -240px
+    10%{
+        left: -40px
     }
-    50%{
-        left: -480px
+    20%{
+        left: -120px
     }
-    75%{
-        left: -240px
+    30%{
+        left: -180px
     }
     
+    40%{
+        left: -220px
+    }
+    50%{
+        left: -280px
+    }
+    60%{
+        left: -320px
+    }
+    70%{
+        left: -280px
+    }
+    80%{
+        left: -220px
+    }
+    90%{
+        left: -180px
+    }
     100%{
         left: 0px
-    }
+    }    
+    
     
 }
 
