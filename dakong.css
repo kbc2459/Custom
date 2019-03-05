@@ -494,3 +494,15 @@ footer a:hover {
 
 /*스트리머메뉴*/
 #favoriteDropdownMenu>li>a>span.label.label-default{margin-right: 1px}
+header:before {
+    display: block;
+    width: 100%;
+    height: 78px;
+    background:url('https://kbc2459.github.io/Custom/da.png') no-repeat #ffd5d1;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    padding: 0;
+    content: " ";
+    /* margin: 0; */
+}
