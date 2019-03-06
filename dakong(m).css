@@ -2,7 +2,7 @@
 * { font-family: 'oACYCZno';}
 /*로고*/
 header>#header-area>a>h1{
- background: url(https://cdn.discordapp.com/attachments/460145928850898945/534765187790667776/dakong.svg) no-repeat;
+ background: url(https://kbc2459.github.io/Custom/tgdkong.svg) no-repeat;
 }
 /*헤더*/
 header { width: 100%; border-bottom: none;text-align: center;height: 50px;position: fixed;top: 0;left: 0;z-index: 3000;transition: all 0.2s ease-in-out;background: #ff7062;}
