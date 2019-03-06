@@ -185,6 +185,7 @@ header:before {
     content: " ";
     margin-bottom: 15px;
     animation: apex 50s infinite;
+    background-size: cover;
 }
 header {
     padding: 0 0 0.4em 0;
