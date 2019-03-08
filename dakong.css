@@ -518,3 +518,12 @@ header:before {
 header {
     padding: 0 0 0.4em 0;
 }
+
+/*버튼 추가 css*/
+.btn-primary.active,
+.btn-primary:active,
+.open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #fe4736;
+    border-color: #fe4736;
+}
