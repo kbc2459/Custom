@@ -155,6 +155,7 @@ header #right-search-form > #right-search-btn {
 
 #board-info #board-info-profile-img:hover {
     border-radius: 15px 50% 50% 15px;
+    -webkit-transition: all 0.5s;
     transition: all 0.5s
 }
 
@@ -162,7 +163,9 @@ header #right-search-form > #right-search-btn {
     margin-right: 20px;
     position: relative;
     top: -7px;
+    -webkit-animation: da 20s infinite;
     animation: da 20s infinite;
+    -webkit-transition: all 0.5s;
     transition: all 0.5s
 }
 
@@ -349,6 +352,7 @@ footer a:hover {
 #article-list #article-list-category > a.active,
 #article-list #article-list-category > a:hover {
     border-color: #ffcfcb;
+    -webkit-transition: all 0.5s;
     transition: all 0.5s
 }
 
@@ -379,14 +383,16 @@ footer a:hover {
     background-size: contain;
     content: "";
     position: relative;
+    -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    -webkit-animation: mari 1s infinite;
     animation: mari 1s infinite;
 }
 
 /*상단인원*/
 #board-info #viewers-area .fa-user:before {
     color: rgba(10, 59, 84, 0);
-    content: url(https://static-cdn.jtvnw.net/badges/v1/9533d98f-2688-4fcd-8e04-b8bbd88f1e3a/1);
+    content: url('');
 }
 
 #board-info #viewers-area #viewers:before {
@@ -402,25 +408,72 @@ footer a:hover {
 /*키프레임*/
 small.favo i.fa.fa-heart:before {
     display: inline-block;
+    -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    -webkit-animation: heat 1s infinite;
     animation: heat 1s infinite;
     color: #ffb814
+}
+
+@-webkit-keyframes heat {
+
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.32);
+        transform: scale(1.32);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
 }
 
 @keyframes heat {
 
     0% {
+        -webkit-transform: scale(1);
         transform: scale(1);
     }
 
     50% {
+        -webkit-transform: scale(1.32);
         transform: scale(1.32);
     }
 
     100% {
+        -webkit-transform: scale(1);
         transform: scale(1);
     }
 
+}
+
+@-webkit-keyframes mari {
+
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: -2px
+    }
+
+    50% {
+        top: 0px
+    }
+
+    75% {
+        top: 2px
+    }
+
+    100% {
+        top: 0px
+    }
 }
 
 @keyframes mari {
@@ -443,6 +496,22 @@ small.favo i.fa.fa-heart:before {
 
     100% {
         top: 0px
+    }
+}
+
+@-webkit-keyframes da {
+    0% {
+        left: 0px
+    }
+
+    50% {
+
+        left: -454px
+    }
+
+    100% {
+
+        left: 0px
     }
 }
 
@@ -475,8 +544,11 @@ small.favo i.fa.fa-heart:before {
 /*게시글 호버*/
 #article-list .article-list-row:hover,
 #article-list div.article-list-row.notice:hover {
+    -webkit-transform: scale(1.025);
     transform: scale(1.025);
+    -webkit-box-shadow: #ffb814 0px 3px 12px -5px;
     box-shadow: #ffb814 0px 3px 12px -5px;
+    -webkit-transition: all 0.35s;
     transition: all 0.35s;
 }
 
