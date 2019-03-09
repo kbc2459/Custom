@@ -5,7 +5,7 @@
 
 /*로고*/
 header > #header-area > a > h1 {
-    background: url(https://cdn.discordapp.com/attachments/460145928850898945/553829869956628481/HIP.svg) no-repeat;
+    background: url(https://cdn.discordapp.com/attachments/460145928850898945/553829869956628481/HIP.svg) no-repeat center center;;
     width: 125px;
     margin-top: 4px;
 }
