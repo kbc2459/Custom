@@ -5,7 +5,7 @@
 /*바디*/
 html,
 body {
-    background: #000
+    background: #101010
 }
 
 /*로고*/
@@ -133,7 +133,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #main .menu-wrapper > a:hover {
-    background: rgba(255,184,20,0.3);
+    background: #ffeabb;
     color: #ffb814;
 }
 
@@ -571,13 +571,15 @@ header:before {
     display: block;
     width: 100%;
     height: 78px;
-    background: url('') no-repeat #ffb814;
+    background: url('https://kbc2459.github.io/Custom/cropped-hiphop_signature_poster.png') no-repeat;
     background-position: center center;
     position: relative;
     top: 0;
     padding: 0;
     content: " ";
     margin-bottom: 15px;
+	-webkit-animation: apex 50s infinite;
+	animation: apex 50s infinite;
 }
 
 header {
@@ -594,3 +596,49 @@ header {
 }
 
 footer div.container > span{color:#fff}
+@-webkit-keyframes apex {
+
+    0% {
+        background-position: top;
+    }
+
+    25% {
+        background-position: center;
+    }
+
+    50% {
+        background-position: bottom;
+    }
+
+    75% {
+        background-position: center;
+    }
+
+    100% {
+        background-position: top;
+    }
+
+}
+@keyframes apex {
+
+    0% {
+        background-position: top;
+    }
+
+    25% {
+        background-position: center;
+    }
+
+    50% {
+        background-position: bottom;
+    }
+
+    75% {
+        background-position: center;
+    }
+
+    100% {
+        background-position: top;
+    }
+
+}
