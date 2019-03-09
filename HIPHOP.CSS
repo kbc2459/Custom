@@ -17,7 +17,7 @@ header .row > div:nth-child(1) > a {
     display: block;
     width: 200px;
     height: 50px;
-    background: url("https://cdn.discordapp.com/attachments/460145928850898945/553827058816516107/--1.png") no-repeat;
+    background: url("https://cdn.discordapp.com/attachments/460145928850898945/553829869956628481/HIP.svg") no-repeat;
     background-size: contain;
     position: relative;
     top: 4px
@@ -322,16 +322,11 @@ footer a:hover {
 
 /*스크롤*/
 #movetotop img {
-    display: none
+
 }
 
 #movetotop {
-    display: inline-block;
-    opacity: 1;
-    background: url("");
-    width: 80px;
-    height: 80px;
-    background-size: contain;
+    
 }
 
 
@@ -578,9 +573,8 @@ header:before {
     padding: 0;
     content: " ";
     margin-bottom: 15px;
-	-webkit-animation: apex 50s infinite;
-	animation: apex 50s infinite;
-	background-size: cover;
+	-webkit-animation: apex 90s infinite;
+	animation: apex 90s infinite;
 }
 
 header {
