@@ -133,12 +133,12 @@ header #right-search-form > #right-search-btn {
 }
 
 #main .menu-wrapper > a:hover {
-    background: #ffb814;
+    background: rgba(255,184,20,0.3);
     color: #ffb814;
 }
 
 #main .menu-wrapper .spacer {
-    background: #ffd1cd82
+     background: rgba(255,184,20,0.3);
 }
 
 /*인포영역*/
