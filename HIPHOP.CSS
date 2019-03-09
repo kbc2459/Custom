@@ -592,3 +592,5 @@ header {
     background-color: #ffb200;
     border-color: #ffb200;
 }
+
+footer div.container > span{color:#fff}
