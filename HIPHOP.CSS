@@ -580,6 +580,7 @@ header:before {
     margin-bottom: 15px;
 	-webkit-animation: apex 50s infinite;
 	animation: apex 50s infinite;
+	background-size: cover;
 }
 
 header {
@@ -624,17 +625,8 @@ footer div.container > span{color:#fff}
     0% {
         background-position: top;
     }
-
-    25% {
-        background-position: center;
-    }
-
     50% {
         background-position: bottom;
-    }
-
-    75% {
-        background-position: center;
     }
 
     100% {
