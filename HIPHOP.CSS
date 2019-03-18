@@ -1,0 +1,630 @@
+* {
+    font-family: 'oACYCZno';
+}
+
+/*바디*/
+html,
+body {
+    background: #101010
+}
+
+/*로고*/
+header .container .row .col-xs-4 img {
+    display: none
+}
+
+header .row > div:nth-child(1) > a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background: url("https://cdn.discordapp.com/attachments/460145928850898945/553829869956628481/HIP.svg") no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 4px
+}
+
+/*헤더바*/
+header #header-bar > .row {
+    border: none;
+    background: #ffb814;
+    border-radius: 10px;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+    border: 2px solid #fff;
+    background: #ffb814
+}
+
+header #header-bar a.dropdown-toggle {
+    color: #fff
+}
+
+header #header-bar #header-top-notice a {
+    color: #fff
+}
+
+header-top-notice a {
+    color: #fff
+}
+
+
+/*검색영역*/
+header #right-search-form > input[type=text] {
+    border-radius: 5px;
+    border: 3px solid #ffb814
+}
+
+header #right-search-form > #right-search-btn {
+    color: #ffb814
+}
+
+/*드랍메뉴*/
+.dropdown-menu {
+    background: #ffb814;
+}
+
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+    color: #fff
+}
+
+#favoriteDropdownMenu > li > a > span.name {
+    color: #fff
+}
+
+.label-default {
+    background: none
+}
+
+#playgroundDropdownMenu a {
+    color: #fff
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    color: #ffb814 !important;
+    font-weight: bold;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover span {
+    color: #ffb814 !important;
+    font-weight: bold;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover .fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+    color: #ffb814 !important;
+}
+
+#latestDropdownMenu .name {
+    color: #fff
+}
+
+.dropdown-menu > li > a {
+    color: #fff
+}
+
+.dropdown-menu-right > li > a:hover {
+    font-weight: normal;
+}
+
+
+/*메뉴*/
+#main .menu-wrapper > .header {
+    background: #ffb814;
+    border-radius: 5px 5px 0 0;
+}
+
+#main .menu-wrapper > a > em {
+    color: #ffb814
+}
+
+#main .menu-wrapper > a > i.fa.fa-square {
+    color: #ffb814
+}
+
+#main .menu-wrapper {
+    border: 1px solid #ffb814;
+    border-radius: 7px 7px 0 0;
+}
+
+#main .menu-wrapper > a:hover {
+    background: #ffeabb;
+    color: #ffb814;
+}
+
+#main .menu-wrapper .spacer {
+     background: rgba(255,184,20,0.3);
+}
+
+/*인포영역*/
+#board-info {
+    height: auto;
+}
+
+#board-info #board-info-profile-img {
+    width: 5em;
+    border-radius: 50%;
+    background: #fff;
+    border: 5px solid #ffb814;
+}
+
+#board-info #board-info-profile-img:hover {
+    border-radius: 15px 50% 50% 15px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s
+}
+
+#board-info .pull-right {
+    margin-right: 20px;
+    position: relative;
+    top: -7px;
+    -webkit-animation: da 20s infinite;
+    animation: da 20s infinite;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s
+}
+
+#board-info h1 > a {
+    color: #ffb814;
+    font-weight: bold
+}
+
+#board-info #board-info-bottom a {
+    color: #ffb814
+}
+
+/*게시판*/
+#article-list #article-option-area > #article-option-area-toggle-btn {
+    display: none
+}
+
+#article-list > .article-list-row > .item > .list-header > span {
+    background-color: #ffb814;
+}
+
+/*추천수*/
+#article-list > .article-list-row > .item > .list-title > small.comment-count {
+    color: #ffb814;
+}
+
+/*댓글수*/
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
+    color: #ffb814
+}
+
+/*게시판닉*/
+#article-list #article-list-category {
+    border-color: #ffb814
+}
+
+#article-content-wrapper > .header {
+    border-color: #ffb814
+}
+
+#main #main-content > div.frame {
+    border: none
+}
+
+/*인기글*/
+#article-list > .article-list-row {
+    border-right: none
+}
+
+#article-list > .article-list-row:hover {}
+
+
+
+/*페이지 넘버*/
+.pagination > li > a,
+.pagination > li > span {
+    color: #ffb814
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    background: #ffb814;
+    color: #fff
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #ffb814;
+    border-color: #ffb814;
+}
+
+
+/*버튼*/
+.btn-primary:hover {
+    background-color: #ffca50
+}
+
+/*글쓰기*/
+.btn-primary {
+    background: #ffb814;
+    border: none
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover {
+    background-color: #ffca50;
+    border-color: #ffca50
+}
+
+
+/*게시글*/
+#article-reply-area > .header h5 {
+    color: #ffb814
+}
+
+/*댓글*/
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
+#article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
+    color: #ffb814
+}
+
+.fr-toolbar {
+    border-top: 3px solid #ffb814
+}
+
+.fr-toolbar.fr-top i:before {
+    color: #ffb814
+}
+
+.fr-toolbar .fr-command.fr-btn.fr-dropdown::after,
+.fr-popup .fr-command.fr-btn.fr-dropdown::after {
+    border-top: 4px solid #ffb814;
+}
+
+.reply-menu a {
+    color: #ffb814
+}
+
+.reply-menu a:hover {
+    color: #ffb814
+}
+
+#lastc {
+    color: #ffb814
+}
+
+#lastc:focus,
+#lastc:hover {
+    color: #ffca50
+}
+
+
+/*푸터*/
+footer a {
+    color: #ffb814
+}
+
+footer a:hover {
+    color: #ffca50
+}
+
+/*스크롤*/
+#movetotop img {
+
+}
+
+#movetotop {
+    
+}
+
+
+/*게시판 텝메뉴*/
+#article-list #article-list-category > a {
+    border-radius: 0 0 50% 50%;
+    width: auto;
+    margin: 0 5px 5px 0;
+    border: 2px solid #ffb814;
+    background: #fff;
+    border-top: none
+}
+
+#article-list #article-list-category {
+    background: #fff
+}
+
+#article-list #article-list-category > a.active,
+#article-list #article-list-category > a:hover {
+    border-color: #ffcfcb;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s
+}
+
+.fa-home:before {
+    color: #ffb814
+}
+
+/*공지사항*/
+#article-list > .article-list-row.notice {
+    background-color: #fff;
+    border: 2px solid #ffb814;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+/*인기글*/
+#article-list > .article-list-row.hot {
+    background-color: #fff;
+    border: 2px solid #ffb814;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+#article-list .fa-star:before {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    background-size: contain;
+    content: "";
+    position: relative;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-animation: mari 1s infinite;
+    animation: mari 1s infinite;
+}
+
+/*상단인원*/
+#board-info #viewers-area .fa-user:before {
+    color: rgba(10, 59, 84, 0);
+    content: url('');
+}
+
+#board-info #viewers-area #viewers:before {
+    content: "힙합";
+    cursor: text;
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "명";
+    cursor: text;
+}
+
+/*키프레임*/
+small.favo i.fa.fa-heart:before {
+    display: inline-block;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-animation: heat 1s infinite;
+    animation: heat 1s infinite;
+    color: #ffb814
+}
+
+@-webkit-keyframes heat {
+
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.32);
+        transform: scale(1.32);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+}
+
+@keyframes heat {
+
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.32);
+        transform: scale(1.32);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+}
+
+@-webkit-keyframes mari {
+
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: -2px
+    }
+
+    50% {
+        top: 0px
+    }
+
+    75% {
+        top: 2px
+    }
+
+    100% {
+        top: 0px
+    }
+}
+
+@keyframes mari {
+
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: -2px
+    }
+
+    50% {
+        top: 0px
+    }
+
+    75% {
+        top: 2px
+    }
+
+    100% {
+        top: 0px
+    }
+}
+
+@-webkit-keyframes da {
+    0% {
+        left: 0px
+    }
+
+    50% {
+
+        left: -454px
+    }
+
+    100% {
+
+        left: 0px
+    }
+}
+
+@keyframes da {
+    0% {
+        left: 0px
+    }
+
+    50% {
+
+        left: -454px
+    }
+
+    100% {
+
+        left: 0px
+    }
+}
+
+
+/*마우스 포인터*/
+/** {
+    cursor: url(https://cdn.discordapp.com/attachments/460145928850898945/551101255687208989/mari.png) 4 5, auto !important;
+}
+
+#aw0 {
+    cursor: url(https://cdn.discordapp.com/attachments/460145928850898945/551101255687208989/mari.png) 4 5, auto !important;
+}*/
+
+/*게시글 호버*/
+#article-list .article-list-row:hover,
+#article-list div.article-list-row.notice:hover {
+    -webkit-transform: scale(1.025);
+    transform: scale(1.025);
+    -webkit-box-shadow: #ffb814 0px 3px 12px -5px;
+    box-shadow: #ffb814 0px 3px 12px -5px;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+/*게시글 밑줄*/
+#article-list > .article-list-row > .item > .list-checkbox,
+#article-list > .article-list-row > .item > .list-header,
+#article-list > .article-list-row > .item > .list-category,
+#article-list > .article-list-row > .item > .list-title,
+#article-list > .article-list-row > .item > .list-blocked,
+#article-list > .article-list-row > .item > .list-time {
+    border: none;
+}
+
+/*스트리머메뉴*/
+#favoriteDropdownMenu > li > a > span.label.label-default {
+    margin-right: 1px
+}
+
+header:before {
+    display: block;
+    width: 100%;
+    height: 78px;
+    background: url('https://kbc2459.github.io/Custom/cropped-hiphop_signature_poster.png') no-repeat;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    padding: 0;
+    content: " ";
+    margin-bottom: 15px;
+	-webkit-animation: apex 90s infinite;
+	animation: apex 90s infinite;
+}
+
+header {
+    padding: 0 0 0.4em 0;
+}
+
+/*버튼 추가 css*/
+.btn-primary.active,
+.btn-primary:active,
+.open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #ffb200;
+    border-color: #ffb200;
+}
+
+footer div.container > span{color:#fff}
+@-webkit-keyframes apex {
+
+    0% {
+        background-position: top;
+    }
+
+    25% {
+        background-position: center;
+    }
+
+    50% {
+        background-position: bottom;
+    }
+
+    75% {
+        background-position: center;
+    }
+
+    100% {
+        background-position: top;
+    }
+
+}
+@keyframes apex {
+
+    0% {
+        background-position: top;
+    }
+    50% {
+        background-position: bottom;
+    }
+
+    100% {
+        background-position: top;
+    }
+
+}
