@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background: transparent;
+    background: #fff;
     animation: snow 20s linear infinite;
     /*백그라운드 이미지 원근감느낌 이미지*/
     background-image: url('https://kbc2459.github.io/Custom/1.png'), url("https://kbc2459.github.io/Custom/2.png"), url("https://kbc2459.github.io/Custom/3.png");
