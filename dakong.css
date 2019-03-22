@@ -3,6 +3,17 @@
 }
 
 /*바디*/
+html {
+    height: auto !important;
+}
+
+body {
+    background: transparent;
+    animation: snow 20s linear infinite;
+    /*백그라운드 이미지 원근감느낌 이미지*/
+    background-image: url('https://kbc2459.github.io/Custom/1.png'), url("https://kbc2459.github.io/Custom/2.png"), url("https://kbc2459.github.io/Custom/3.png");
+}
+
 html,
 body {
     background: #fff
@@ -526,4 +537,13 @@ header {
     color: #fff;
     background-color: #fe4736;
     border-color: #fe4736;
+}
+
+
+@keyframes snow {
+
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+
+100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+
 }
