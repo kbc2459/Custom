@@ -25,7 +25,7 @@ header .row > div:nth-child(1) > a {
     display: block;
     width: 200px;
     height: 50px;
-    background: url() no-repeat;
+    background: url('https://cdn.discordapp.com/attachments/460145928850898945/562106615734468615/ONG.svg') no-repeat;
     background-size: contain;
     position: relative;
     top: 4px
@@ -342,7 +342,7 @@ footer a:hover {
 
 #article-list #article-list-category > a.active,
 #article-list #article-list-category > a:hover {
-    border-color: #ffcfcb;
+    border-color: #151515;
     transition: all 0.5s
 }
 
