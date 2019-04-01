@@ -399,12 +399,12 @@ footer a:hover {
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "콩크리트";
+    content: "빙고단";
     cursor: text;
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "명 콩줍는중";
+    content: "명 빙고중";
     cursor: text;
 }
 
