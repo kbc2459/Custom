@@ -462,7 +462,7 @@ small.favo i.fa.fa-heart:before {
 
     50% {
 
-        left: -454px
+        left: -354px
     }
 
     100% {
@@ -477,14 +477,10 @@ small.favo i.fa.fa-heart:before {
     cursor: url(https://cdn.discordapp.com/attachments/460145928850898945/551101255687208989/mari.png) 4 5, auto !important;
 }
 
-#aw0 {
-    cursor: url(https://cdn.discordapp.com/attachments/460145928850898945/551101255687208989/mari.png) 4 5, auto !important;
-}
-
 /*방송시작*/
 #board-info h1 > a.badge.badge-live::after {
     font-size: 12px;
-    content: "사장출근";
+    content: "이모출근";
 }
 
 /*게시글 호버*/
