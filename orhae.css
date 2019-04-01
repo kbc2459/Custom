@@ -325,20 +325,6 @@ footer a:hover {
     color: #151515
 }
 
-/*스크롤*/
-#movetotop img {
-    display: none
-}
-
-#movetotop {
-    display: inline-block;
-    opacity: 1;
-    background: url(https://cdn.discordapp.com/attachments/460145928850898945/542419700290813953/--1.png);
-    width: 80px;
-    height: 80px;
-    background-size: contain;
-}
-
 
 /*게시판 텝메뉴*/
 #article-list #article-list-category > a {
