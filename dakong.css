@@ -29,8 +29,6 @@ header .row > div:nth-child(1) > a {
     height: 50px;
     background: url(https://kbc2459.github.io/Custom/tgdkong.svg) no-repeat;
     background-size: contain;
-    position: relative;
-    top: 4px
 }
 
 /*헤더바*/
