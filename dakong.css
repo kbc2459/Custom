@@ -35,7 +35,6 @@ header .row > div:nth-child(1) > a {
 header #header-bar > .row {
     border: none;
     background: #ff7062;
-    border-radius: 10px;
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
@@ -58,7 +57,6 @@ header-top-notice a {
 
 /*검색영역*/
 header #right-search-form > input[type=text] {
-    border-radius: 5px;
     border: 3px solid #ff7062
 }
 
@@ -124,7 +122,6 @@ header #right-search-form > #right-search-btn {
 /*메뉴*/
 #main .menu-wrapper > .header {
     background: #ff7062;
-    border-radius: 5px 5px 0 0;
 }
 
 #main .menu-wrapper > a > em {
@@ -137,7 +134,6 @@ header #right-search-form > #right-search-btn {
 
 #main .menu-wrapper {
     border: 1px solid #ff7062;
-    border-radius: 7px 7px 0 0;
 }
 
 #main .menu-wrapper > a:hover {
@@ -342,7 +338,6 @@ footer a:hover {
 
 /*게시판 텝메뉴*/
 #article-list #article-list-category > a {
-    border-radius: 0 0 50% 50%;
     width: auto;
     margin: 0 5px 5px 0;
     border: 2px solid #ff7062;
