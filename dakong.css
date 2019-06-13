@@ -122,24 +122,24 @@ header #right-search-form > #right-search-btn {
 
 /*메뉴*/
 #main .menu-wrapper > .header {
-    background: #ff7062;
+    background: #a78882;
 }
 
 #main .menu-wrapper > a > em {
-    color: #ff7062
+    color: #a78882
 }
 
 #main .menu-wrapper > a > i.fa.fa-square {
-    color: #ff7062
+    color: #a78882
 }
 
 #main .menu-wrapper {
-    border: 1px solid #ff7062;
+    border: 1px solid #a78882;
 }
 
 #main .menu-wrapper > a:hover {
-    background: #ff70624d;
-    color: #ff7062;
+    background: #a78882;
+    color: #a78882;
 }
 
 #main .menu-wrapper .spacer {
