@@ -14,9 +14,7 @@ body {
 }
 
 html,
-body {
-
-}
+body {}
 
 /*로고*/
 header .container .row .col-xs-4 img {
@@ -34,7 +32,7 @@ header .row > div:nth-child(1) > a {
 /*헤더바*/
 header #header-bar > .row {
     border: none;
-    background: linear-gradient(to left,#D09E88,#9B8281);
+    background: linear-gradient(to left, #D09E88, #9B8281);
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
@@ -88,14 +86,14 @@ header #right-search-form > #right-search-btn {
 
 .dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:hover {
-    color: #fff  !important;
+    color: #fff !important;
     font-weight: bold;
     background-color: #bc9486;
 }
 
 .dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:hover span {
-    color: #fff  !important;
+    color: #fff !important;
     font-weight: bold;
     background-color: #bc9486;
 }
@@ -150,7 +148,7 @@ header #right-search-form > #right-search-btn {
 #board-info {
     height: auto;
     border: 5px solid #bfadab;
-    background: linear-gradient(to left,#D09E88,#9B8281);
+    background: linear-gradient(to left, #D09E88, #9B8281);
 }
 
 #board-info #board-info-profile-img {
@@ -391,7 +389,10 @@ footer a:hover {
 }
 
 /*상단인원*/
-#board-info #viewers {color:#ffffff}
+#board-info #viewers-area {
+    color: #ffffff
+}
+
 #board-info #viewers-area .fa-user:before {
     color: rgba(10, 59, 84, 0);
     content: url(https://static-cdn.jtvnw.net/badges/v1/9533d98f-2688-4fcd-8e04-b8bbd88f1e3a/1);
@@ -407,7 +408,11 @@ footer a:hover {
     content: "명 콩줍는중";
     cursor: text;
 }
-.badge {background-color:#534847}
+
+.badge {
+    background-color: #534847
+}
+
 /*키프레임*/
 small.favo i.fa.fa-heart:before {
     display: inline-block;
