@@ -149,6 +149,8 @@ header #right-search-form > #right-search-btn {
 /*인포영역*/
 #board-info {
     height: auto;
+    border: 5px solid #bfadab;
+    background: linear-gradient(to left,#D09E88,#9B8281);
 }
 
 #board-info #board-info-profile-img {
@@ -172,12 +174,12 @@ header #right-search-form > #right-search-btn {
 }
 
 #board-info h1 > a {
-    color: #ff7062;
+    color: #ffffff;
     font-weight: bold
 }
 
 #board-info #board-info-bottom a {
-    color: #ff7062
+    color: #ffffff;
 }
 
 /*게시판*/
@@ -389,6 +391,7 @@ footer a:hover {
 }
 
 /*상단인원*/
+#board-info #viewers-area {colo:#ffffff}
 #board-info #viewers-area .fa-user:before {
     color: rgba(10, 59, 84, 0);
     content: url(https://static-cdn.jtvnw.net/badges/v1/9533d98f-2688-4fcd-8e04-b8bbd88f1e3a/1);
@@ -397,13 +400,14 @@ footer a:hover {
 #board-info #viewers-area #viewers:before {
     content: "콩크리트";
     cursor: text;
+    color: #ffffff;
 }
 
 #board-info #viewers-area #viewers:after {
     content: "명 콩줍는중";
     cursor: text;
 }
-
+.badge {background-color:#534847}
 /*키프레임*/
 small.favo i.fa.fa-heart:before {
     display: inline-block;
