@@ -126,7 +126,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #main .menu-wrapper > a > em {
-    color: #a78882
+    color: #d09e88
 }
 
 #main .menu-wrapper > a > i.fa.fa-square {
@@ -139,7 +139,7 @@ header #right-search-form > #right-search-btn {
 
 #main .menu-wrapper > a:hover {
     background: #a78882;
-    color: #a78882;
+    color: #FFFFFF;
 }
 
 #main .menu-wrapper .spacer {
