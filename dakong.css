@@ -56,11 +56,11 @@ header-top-notice a {
 
 /*검색영역*/
 header #right-search-form > input[type=text] {
-    border: 3px solid #ff7062
+    border: 3px solid #c39786;
 }
 
 header #right-search-form > #right-search-btn {
-    color: #ff7062
+    color: #c39786;
 }
 
 /*드랍메뉴*/
@@ -126,7 +126,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #main .menu-wrapper > a > em {
-    color: #d09e88
+    color: #534847
 }
 
 #main .menu-wrapper > a > i.fa.fa-square {
@@ -143,7 +143,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #main .menu-wrapper .spacer {
-    background: #ffd1cd82
+    background: #9f8482ab
 }
 
 /*인포영역*/
