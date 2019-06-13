@@ -252,6 +252,11 @@ header #right-search-form > #right-search-btn {
 .btn-primary:hover {
     background-color: #a78882
 }
+.btn-primary.focus, .btn-primary:focus{
+    color: #fff;
+    background-color: #534847;
+    border-color: #534847;
+}
 
 /*글쓰기*/
 .btn-primary {
