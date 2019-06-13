@@ -224,14 +224,14 @@ header #right-search-form > #right-search-btn {
 /*페이지 넘버*/
 .pagination > li > a,
 .pagination > li > span {
-    color: #ff7062
+    color: #534847
 }
 
 .pagination > li > a:focus,
 .pagination > li > a:hover,
 .pagination > li > span:focus,
 .pagination > li > span:hover {
-    background: #ff7062;
+    background: #534847;
     color: #fff
 }
 
@@ -241,8 +241,8 @@ header #right-search-form > #right-search-btn {
 .pagination > .active > span,
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
-    background-color: #ff7062;
-    border-color: #ff7062;
+    background-color: #534847;
+    border-color: #534847;
 }
 
 
