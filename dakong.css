@@ -354,7 +354,8 @@ footer a:hover {
 #article-list #article-list-category {
     background: linear-gradient(to left, #D09E88, #9B8281);
     border: none;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    border-bottom: 5px solid #bfadab;
 }
 
 #article-list #article-list-category > a.active,
