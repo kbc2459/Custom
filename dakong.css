@@ -338,22 +338,30 @@ footer a:hover {
 
 
 /*게시판 텝메뉴*/
+#article-list{padding: 0}
 #article-list #article-list-category > a {
     width: auto;
     margin: 0 5px 5px 0;
     border: 2px solid #ff7062;
     background: #fff;
-    border-top: none
+    border-top: none;
+    position: relative;
+    top: 3px;
+    margin-left:5px;
+    border-radius: 10px;
 }
 
 #article-list #article-list-category {
-    background: #fff
+    background: linear-gradient(to left, #D09E88, #9B8281);
+    border: none;
+    margin-bottom: 10px
 }
 
 #article-list #article-list-category > a.active,
 #article-list #article-list-category > a:hover {
-    border-color: #ffcfcb;
-    transition: all 0.5s
+    border-color: #534847;
+    transition: all 0.5s;
+    top: -10px
 }
 
 .fa-home:before {
