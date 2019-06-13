@@ -205,6 +205,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-content-wrapper > .header {
+    border-top: 0;
     border-bottom: 3px solid  #bc9385;
     background:#ffffff;
 }
@@ -575,4 +576,8 @@ header {
         background-position: 500px 1000px, 400px 400px, 300px 300px;
     }
 
+}
+
+#article-neighbor-list{
+    border:2px solid #534847
 }
