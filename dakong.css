@@ -388,7 +388,11 @@ footer a:hover {
 }
 
 .fa-home:before {
-    color: #534847;
+    color: #ffffff;
+}
+.fa-home:before:hover,
+.fa-home:before:active{
+    color:#ffffff;
 }
 
 /*공지사항*/
