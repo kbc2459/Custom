@@ -296,20 +296,20 @@ header #right-search-form > #right-search-btn {
 }
 
 .reply-menu a {
-    color: #ff7062
+    color: #534847
 }
 
 .reply-menu a:hover {
-    color: #fd5646
+    color: #534847
 }
 
 #lastc {
-    color: #ff7062
+    color: #534847
 }
 
 #lastc:focus,
 #lastc:hover {
-    color: #fd5646
+    color: #534847
 }
 
 
