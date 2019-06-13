@@ -363,10 +363,11 @@ footer a:hover {
     transition: all 0.5s;
     top: -10px;
     background: #534847;
+    color: #ffffff !important;
 }
 
 .fa-home:before {
-    color: #FF7062
+    color: #ffffff;
 }
 
 /*공지사항*/
