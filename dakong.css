@@ -498,19 +498,19 @@ small.favo i.fa.fa-heart:before {
 @keyframes da {
     0% {
         left: 0px;
-        border-color: #f9c5be;
+         border-color: #f37264;
     }
 
     50% {
 
         left: -454px;
-        border-color: #f37264;
+        border-color: #f9c5be;
     }
 
     100% {
 
         left: 0px;
-         border-color: #f9c5be;
+        border-color: #f37264;
     }
 }
 
