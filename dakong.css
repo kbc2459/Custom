@@ -88,7 +88,7 @@ header #right-search-form > #right-search-btn {
 .dropdown-menu > li > a:hover {
     animation: hover 1s linear infinite;
     font-weight: bold;
-    background-color: #bc9486;
+    color: #ffffff;
 }
 
 .dropdown-menu > li > a:focus,
@@ -589,13 +589,19 @@ header {
 @keyframes hover {
 
     0% {
-       color:#f37064
+       background:#f37064
     }
-    50%{
-        color:#f3a064
+    25%{
+        background:#f3a064
+    }
+    50% {
+        background:#fac7c3
+    }
+    75%{
+        background:#f3a064
     }
     100% {
-        color:#fac7c3
+        background:#f37064
     }
 
 }
