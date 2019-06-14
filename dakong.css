@@ -208,7 +208,7 @@ header #right-search-form > #right-search-btn {
 
 #article-content-wrapper > .header {
     border-top: 0;
-    border-bottom: 3px solid  #bc9385;
+    border-bottom: 3px solid  #f38164;
     background:#ffffff;
 }
 
@@ -282,7 +282,7 @@ header #right-search-form > #right-search-btn {
 
 /*게시글*/
 #article-reply-area > .header h5 {
-    color: #534847;
+    color: #f38164;
 
 }
 
@@ -290,19 +290,19 @@ header #right-search-form > #right-search-btn {
     width: 100%;
     padding: 1em 1em 0.5em;
     position: relative;
-    border: 5px solid #bc9385;
+    border: 5px solid #f38164;
     margin-bottom: 10px;
     
 }
 #article-content-wrapper{
     padding: 0;
-    border: 3px solid #bc9385;
+    border: 3px solid #f38164;
 }
 
 /*댓글*/
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
 #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
-    color: #534847
+    color: #f38164
 }
 
 .fr-toolbar {
@@ -319,11 +319,11 @@ header #right-search-form > #right-search-btn {
 }
 
 .reply-menu a {
-    color: #534847
+    color: #f38164
 }
 
 .reply-menu a:hover {
-    color: #534847
+    color: #f38164
 }
 
 #lastc {
