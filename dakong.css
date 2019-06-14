@@ -95,7 +95,6 @@ header #right-search-form > #right-search-btn {
 .dropdown-menu > li > a:hover span {
     color: #fff !important;
     font-weight: bold;
-    background-color: #bc9486;
 }
 
 .dropdown-menu > li > a:focus,
