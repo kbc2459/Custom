@@ -399,14 +399,14 @@ footer a:hover {
 /*공지사항*/
 #article-list > .article-list-row.notice {
     background-color: #fff;
-    border: 2px solid #534847;
+    border: 2px solid #f37264;
     margin-bottom: 5px;
 }
 
 /*인기글*/
 #article-list > .article-list-row.hot {
     background-color: #fff;
-    border: 2px solid #534847;
+    border: 2px solid #f37264;
     margin-bottom: 5px;
 }
 
