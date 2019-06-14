@@ -63,7 +63,7 @@ header #right-search-form > #right-search-btn {
 
 /*드랍메뉴*/
 .dropdown-menu {
-    background: #f37064;
+    background: #f7b89f;
 }
 
 .fa-remove:before,
@@ -86,7 +86,7 @@ header #right-search-form > #right-search-btn {
 
 .dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:hover {
-    animation: hover 1s linear infinite;
+    animation: hover 2s linear infinite;
     font-weight: bold;
     color: #ffffff;
 }
