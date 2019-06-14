@@ -32,11 +32,11 @@ header .row > div:nth-child(1) > a {
 /*헤더바*/
 header #header-bar > .row {
     border: none;
-    background: linear-gradient(to left, #D09E88, #9B8281);
+    background: linear-gradient(to left, #f37064, #f3a064,#fac7c3);
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
-    background: #534847
+    background: #f37e64;
 }
 
 header #header-bar a.dropdown-toggle {
@@ -63,7 +63,7 @@ header #right-search-form > #right-search-btn {
 
 /*드랍메뉴*/
 .dropdown-menu {
-    background: #9b8281;
+    background: #f37064;
 }
 
 .fa-remove:before,
@@ -86,7 +86,7 @@ header #right-search-form > #right-search-btn {
 
 .dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:hover {
-    color: #fff !important;
+    animation: hover 1s linear infinite;
     font-weight: bold;
     background-color: #bc9486;
 }
@@ -583,6 +583,19 @@ header {
 
     100% {
         background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+
+}
+@keyframes hover {
+
+    0% {
+       color:#f37064
+    }
+    50%{
+        color:#f3a064
+    }
+    100% {
+        color:#fac7c3
     }
 
 }
