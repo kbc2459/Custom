@@ -306,16 +306,16 @@ header #right-search-form > #right-search-btn {
 }
 
 .fr-toolbar {
-    border-top: 3px solid #534847
+    border-top: 3px solid #f38164
 }
 
 .fr-toolbar.fr-top i:before {
-    color: #534847
+    color: #f38164
 }
 
 .fr-toolbar .fr-command.fr-btn.fr-dropdown::after,
 .fr-popup .fr-command.fr-btn.fr-dropdown::after {
-    border-top: 4px solid #534847;
+    border-top: 4px solid #f38164;
 }
 
 .reply-menu a {
@@ -621,5 +621,5 @@ header {
     }
 }
 #article-neighbor-list{
-    border:2px solid #534847
+    border:2px solid #f38164
 }
