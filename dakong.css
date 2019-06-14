@@ -188,7 +188,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list > .article-list-row > .item > .list-header > span {
-    background-color: #a78882;
+    background-color: #f38864;
 }
 
 /*추천수*/
@@ -198,7 +198,7 @@ header #right-search-form > #right-search-btn {
 
 /*댓글수*/
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
-    color: #534847
+    color: #f37064
 }
 
 /*게시판닉*/
@@ -452,7 +452,7 @@ small.favo i.fa.fa-heart:before {
     display: inline-block;
     transition: all 0.3s;
     animation: heat 1s infinite;
-    color: #cf9e88
+    color: #f38364
 }
 
 @keyframes heat {
