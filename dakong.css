@@ -147,8 +147,10 @@ header #right-search-form > #right-search-btn {
 /*인포영역*/
 #board-info {
     height: auto;
-    border: 5px solid #bfadab;
-    background: linear-gradient(to left, #D09E88, #9B8281);
+    border: 5px solid transparent;
+    border-image: linear-gradient(to left, #f37064, #f3a064,#fac7c3);
+    border-image-slice: 5;
+    background: linear-gradient(to right, #f37064, #f3a064,#fac7c3);
 }
 
 #board-info #board-info-profile-img {
