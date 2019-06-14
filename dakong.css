@@ -120,11 +120,11 @@ header #right-search-form > #right-search-btn {
 
 /*메뉴*/
 #main .menu-wrapper > .header {
-    background: #a78882;
+    background: #f38564;
 }
 
 #main .menu-wrapper > a > em {
-    color: #534847
+    color: #f37164;
 }
 
 #main .menu-wrapper > a > i.fa.fa-square {
@@ -132,11 +132,11 @@ header #right-search-form > #right-search-btn {
 }
 
 #main .menu-wrapper {
-    border: 1px solid #a78882;
+    border: 1px solid #f38564;
 }
 
 #main .menu-wrapper > a:hover {
-    background: #a78882;
+    background: #f38564;
     color: #FFFFFF;
 }
 
