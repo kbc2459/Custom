@@ -360,7 +360,7 @@ footer a:hover {
 
 
 /*게시판 텝메뉴*/
-#article-list{padding: 0}
+#article-list{padding: 15px;background: #ffffff;border-radius: 10px;border: 1px solid #f38564;}
 #article-list #article-list-category > a {
     width: auto;
     margin: 0 5px 5px 0;
