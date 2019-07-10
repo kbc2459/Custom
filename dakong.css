@@ -153,10 +153,13 @@ header #right-search-form > #right-search-btn {
 }
 
 #board-info #board-info-profile-img {
-    width: 5em;
+    width: 80px;
     border-radius: 50%;
-    background: #fff;
+    /* background: none; */
+    background-size: contain;
     border: 5px solid #534847;
+    content: url(https://kbc2459.github.io/Custom/da.gif);
+    height: 80px;
 }
 
 #board-info #board-info-profile-img:hover {
