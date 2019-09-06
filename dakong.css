@@ -159,7 +159,6 @@ header #right-search-form > #right-search-btn {
 #board-info #board-info-profile-img {
     width: 100px;
     border-radius: 50%;
-    /* background: none; */
     background-size: contain;
     border: 5px solid #534847;
     content: url(https://kbc2459.github.io/Custom/da.gif);
@@ -167,7 +166,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #board-info #board-info-profile-img:hover {
-    border-radius: 15px 50% 50% 15px;
+    border-radius: 15px 15px 15px 15px;
     transition: all 0.5s
 }
 
@@ -175,7 +174,6 @@ header #right-search-form > #right-search-btn {
     margin-right: 20px;
     position: relative;
     top: -7px;
-    animation: da 20s infinite;
     transition: all 0.5s
 }
 
