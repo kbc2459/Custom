@@ -156,7 +156,7 @@ header #right-search-form > #right-search-btn {
 /*인포영역*/
 #board-info {
     height: auto;
-    border-bottom: 2px solid #ff4343;
+    box-shadow: #ff4343 0px 3px 2px 1px;
 }
 #board-info #viewers-area, #board-info #score-area{color: #ff4343;}
 
@@ -392,7 +392,7 @@ footer a:hover {
 #article-list #article-list-category > a.active,
 #article-list #article-list-category > a:hover {
     transition: all 0.5s;
-    top: -10px;
+    top: -5px;
     color: #ff4343 !important;
     border-bottom: 2px solid #ff4343;
     transform: scale(1.15);
