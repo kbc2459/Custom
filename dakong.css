@@ -319,16 +319,16 @@ header #right-search-form > #right-search-btn {
 }
 
 .fr-toolbar {
-    border-top: 3px solid #f38164
+    border-top: 1px solid #ff4343
 }
 
 .fr-toolbar.fr-top i:before {
-    color: #f38164
+    color: #ff4343
 }
 
 .fr-toolbar .fr-command.fr-btn.fr-dropdown::after,
 .fr-popup .fr-command.fr-btn.fr-dropdown::after {
-    border-top: 4px solid #f38164;
+    border-top: 1px solid #ff4343;
 }
 
 .reply-menu a {
