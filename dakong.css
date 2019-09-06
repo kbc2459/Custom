@@ -216,7 +216,7 @@ header #right-search-form > #right-search-btn {
 
 #article-content-wrapper > .header {
     border-top: 0;
-    border-bottom: 3px solid  #f38164;
+    border-bottom: 1px solid  #ff4343;
     background:#ffffff;
 }
 
@@ -303,13 +303,13 @@ header #right-search-form > #right-search-btn {
     width: 100%;
     padding: 1em 1em 0.5em;
     position: relative;
-    border: 5px solid #f38164;
+    border: none;
     margin-bottom: 10px;
     
 }
 #article-content-wrapper{
     padding: 0;
-    border: 3px solid #f38164;
+    border: none
 }
 
 /*댓글*/
