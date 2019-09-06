@@ -13,7 +13,10 @@ body {
     /*animation: snow 20s linear infinite;
     background-image: url('https://kbc2459.github.io/Custom/1.png'), url("https://kbc2459.github.io/Custom/2.png"), url("https://kbc2459.github.io/Custom/3.png");*/
 }
-
+header #header-bar #header-menu-left #playgroundDropdown{
+    padding-left: 0.2em;
+    padding-right: 0.7em;    
+}
 html,
 body {}
 
