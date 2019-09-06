@@ -128,7 +128,8 @@ header #right-search-form > #right-search-btn {
 
 /*메뉴*/
 #main .menu-wrapper > .header {
-    background: #f38564;
+    background: transparent;
+    color: #ff4343;
 }
 
 #main .menu-wrapper > a > em {
@@ -140,7 +141,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #main .menu-wrapper {
-    border: 1px solid #ff4343;
+    border: none;
 }
 
 #main .menu-wrapper > a:hover {
@@ -148,7 +149,7 @@ header #right-search-form > #right-search-btn {
 }
 
 #main .menu-wrapper .spacer {
-    background: #ff4343
+    background: transparent;
 }
 
 /*인포영역*/
@@ -178,7 +179,7 @@ header #right-search-form > #right-search-btn {
     top: -7px;
     transition: all 0.5s
 }
-
+#board-info h1{border: none}
 #board-info h1 > a {
     color: #ff4343;
     font-weight: bold
