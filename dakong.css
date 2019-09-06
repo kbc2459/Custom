@@ -127,6 +127,7 @@ header #right-search-form > #right-search-btn {
 
 
 /*메뉴*/
+#main #main-menu{border-top: 2px solid #ff4343 ;border-bottom: 2px solid #ff4343}
 #main .menu-wrapper > .header {
     background: transparent;
     color: #ff4343;
