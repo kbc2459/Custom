@@ -50,7 +50,8 @@ header #header-bar #header-top-notice a {
 header-top-notice a {
     color: #ff4343
 }
-
+header #header-bar #header-menu-left{border:none}
+header #header-bar #header-menu-right{border:none}
 
 /*검색영역*/
 header #right-search-form > input[type=text] {
