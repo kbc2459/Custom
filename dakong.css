@@ -53,6 +53,7 @@ header-top-notice a {
 header #header-bar #header-menu-left{border:none}
 header #header-bar #header-menu-right{border:none}
 .dropdown-menu .divider{background:#ff4343}
+.label label-default{color:#ff4343 !improtant}
 
 /*검색영역*/
 header #right-search-form > input[type=text] {
