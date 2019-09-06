@@ -36,13 +36,13 @@ header #header-bar > .row {
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
-    background: #f37e64;
+    background: #fff;
 }
 
 header #header-bar a.dropdown-toggle {
     color: #fff
 }
-
+header #header-bar #header-top-notice strong.notice-badge{color: #ff4343}
 header #header-bar #header-top-notice a {
     color: #fff
 }
@@ -54,46 +54,51 @@ header-top-notice a {
 
 /*검색영역*/
 header #right-search-form > input[type=text] {
-    border: 3px solid #c39786;
+    border: none;
+    border-bottom: 1px solid #ff4343;
+    color: #ff4343;
 }
 
 header #right-search-form > #right-search-btn {
-    color: #c39786;
+    color: #ff4343;
 }
 
 /*드랍메뉴*/
 .dropdown-menu {
-    background: #f7b89f;
+    background: rgba(255,255,255,0.8);
+    font-size: 13px;
+    
 }
 
 .fa-remove:before,
 .fa-close:before,
 .fa-times:before {
-    color: #fff
+    color: #ff4343;
 }
 
 #favoriteDropdownMenu > li > a > span.name {
-    color: #fff
+    color: #ff4343
 }
 
 .label-default {
-    background: none
+    background: transparent
 }
 
 #playgroundDropdownMenu a {
-    color: #fff
+    color: #ff4343
 }
 
 .dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:hover {
-    animation: hover 2s linear infinite;
     font-weight: bold;
-    color: #ffffff;
+    color: #ff4343;
+    border-right: 2px solid #ff4343;
+    border-left: 2px solid #ff4343;
 }
 
 .dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:hover span {
-    color: #fff !important;
+    color: #ff4343 !important;
     font-weight: bold;
 }
 
@@ -101,15 +106,15 @@ header #right-search-form > #right-search-btn {
 .dropdown-menu > li > a:hover .fa-remove:before,
 .fa-close:before,
 .fa-times:before {
-    color: #ffffff !important;
+    color: #ff4343 !important;
 }
 
 #latestDropdownMenu .name {
-    color: #fff
+    color: #ff4343;
 }
-
+#latestDropdownMenu>li>a>span.delrow:hover{background: transparent}
 .dropdown-menu > li > a {
-    color: #fff
+    color: #ff4343;
 }
 
 .dropdown-menu-right > li > a:hover {
@@ -123,24 +128,23 @@ header #right-search-form > #right-search-btn {
 }
 
 #main .menu-wrapper > a > em {
-    color: #f37164;
+    color: #ff4343;
 }
 
 #main .menu-wrapper > a > i.fa.fa-square {
-    color: #f37164;
+    color: #ff4343;
 }
 
 #main .menu-wrapper {
-    border: 1px solid #f38564;
+    border: 1px solid #ff4343;
 }
 
 #main .menu-wrapper > a:hover {
-    background: #f3856487;
-    color: #FFFFFF;
+    color: #ff4343;
 }
 
 #main .menu-wrapper .spacer {
-    background: #f38464
+    background: #ff4343
 }
 
 /*인포영역*/
