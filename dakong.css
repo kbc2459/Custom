@@ -236,7 +236,7 @@ header #right-search-form > #right-search-btn {
 /*페이지 넘버*/
 .pagination > li > a,
 .pagination > li > span {
-    color: #534847
+    color: #ff4343;
 }
 
 .pagination > li > a:focus,
@@ -244,7 +244,7 @@ header #right-search-form > #right-search-btn {
 .pagination > li > span:focus,
 .pagination > li > span:hover {
     background: #ff4343;
-    color: #ff4343
+    color: #fff
 }
 
 .pagination > .active > a,
@@ -253,25 +253,30 @@ header #right-search-form > #right-search-btn {
 .pagination > .active > span,
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
-    background-color: #534847;
-    border-color: #534847;
+    background-color: #ff4343;
+    border-color: #ff4343;
 }
 
 
 /*버튼*/
 .btn-primary:hover {
-    background-color: #f6b495
+    background-color: #fff;
+    color: #ff4343;
+    border:none;
+    border-bottom: 2px #ff4343;
 }
 .btn-primary.focus, .btn-primary:focus{
-    color: #fff;
-    background-color: #534847;
-    border-color: #534847;
+    background-color: #fff;
+    color: #ff4343;
+    border:none;
+    border-bottom: 2px #ff4343;
 }
 
 /*글쓰기*/
 .btn-primary {
-    background: #f37164;
-    border: none
+    background: #ff4343;
+    color:#fff;
+    border:none;
 }
 
 .btn-primary.active.focus,
@@ -283,14 +288,14 @@ header #right-search-form > #right-search-btn {
 .open > .dropdown-toggle.btn-primary.focus,
 .open > .dropdown-toggle.btn-primary:focus,
 .open > .dropdown-toggle.btn-primary:hover {
-    background-color: #a78882;
-    border-color: #a78882
+    background-color: #ff4343;
+    border:none
 }
 
 
 /*게시글*/
 #article-reply-area > .header h5 {
-    color: #f38164;
+    color: #ff4343;
 
 }
 
@@ -458,7 +463,7 @@ small.favo i.fa.fa-heart:before {
     display: inline-block;
     transition: all 0.3s;
     animation: heat 1s infinite;
-    color: #f38364
+    color: #ff4343;
 }
 
 @keyframes heat {
