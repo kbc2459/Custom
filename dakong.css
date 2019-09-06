@@ -153,10 +153,7 @@ header #right-search-form > #right-search-btn {
 /*인포영역*/
 #board-info {
     height: auto;
-    border: 5px solid transparent;
-    border-image: linear-gradient(to left, #f37064, #f3a064,#fac7c3);
-    border-image-slice: 5;
-    background: linear-gradient(to right, #f37064, #f3a064,#fac7c3);
+    border-bottom: 2px solid #ff4343;
 }
 
 #board-info #board-info-profile-img {
@@ -183,12 +180,12 @@ header #right-search-form > #right-search-btn {
 }
 
 #board-info h1 > a {
-    color: #ffffff;
+    color: #ff4343;
     font-weight: bold
 }
 
 #board-info #board-info-bottom a {
-    color: #ffffff;
+    color: #ff4343;
 }
 
 /*게시판*/
@@ -197,22 +194,22 @@ header #right-search-form > #right-search-btn {
 }
 
 #article-list > .article-list-row > .item > .list-header > span {
-    background-color: #f38864;
+    background-color: #ff4343;
 }
 
 /*추천수*/
 #article-list > .article-list-row > .item > .list-title > small.comment-count {
-    color: #534847;
+    color: #ff4343;
 }
 
 /*댓글수*/
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
-    color: #f37064
+    color: #ff4343
 }
 
 /*게시판닉*/
 #article-list #article-list-category {
-    border-color: #f39564
+    border-color: #ff4343
 }
 
 #article-content-wrapper > .header {
@@ -244,8 +241,8 @@ header #right-search-form > #right-search-btn {
 .pagination > li > a:hover,
 .pagination > li > span:focus,
 .pagination > li > span:hover {
-    background: #534847;
-    color: #fff
+    background: #ff4343;
+    color: #ff4343
 }
 
 .pagination > .active > a,
