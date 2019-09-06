@@ -32,7 +32,7 @@ header .row > div:nth-child(1) > a {
 /*헤더바*/
 header #header-bar > .row {
     border: none;
-    background: linear-gradient(to left, #f37064, #f3a064,#fac7c3);
+    border-bottom: 2px solid #ff4343;
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
@@ -40,7 +40,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 
 header #header-bar a.dropdown-toggle {
-    color: #fff
+    color: #ff4343;
 }
 header #header-bar #header-top-notice strong.notice-badge{color: #ff4343}
 header #header-bar #header-top-notice a {
