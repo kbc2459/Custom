@@ -384,12 +384,9 @@ footer a:hover {
 }
 
 #article-list #article-list-category {
-    background: linear-gradient(to right, #f37064, #f3a064,#fac7c3);
+    background: transparent;
     border: none;
     margin-bottom: 10px;
-    border-bottom: 5px solid transparent;
-    border-image: linear-gradient(to left,#f37064, #f3a064,#fac7c3);
-    border-image-slice: 2;
     animation: tap 2s infinite;
 }
 
@@ -399,6 +396,7 @@ footer a:hover {
     top: -10px;
     color: #ff4343 !important;
     border-bottom: 2px solid #ff4343;
+    transform: scale(1.15);
 }
 
 .fa-home:before {
