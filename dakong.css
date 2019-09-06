@@ -315,7 +315,7 @@ header #right-search-form > #right-search-btn {
 /*댓글*/
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged,
 #article-reply-area #reply-best-area .reply > .reply-header > .reply-writer.logged {
-    color: #f38164
+    color: #ff4343;
 }
 
 .fr-toolbar {
@@ -332,30 +332,30 @@ header #right-search-form > #right-search-btn {
 }
 
 .reply-menu a {
-    color: #f38164
+    color: #ff4343
 }
 
 .reply-menu a:hover {
-    color: #f38164
+    color: #ff4343;
 }
 
 #lastc {
-    color: #534847
+    color: #ff4343 !important
 }
 
 #lastc:focus,
 #lastc:hover {
-    color: #534847
+    color: #ff4343 !important
 }
 
 
 /*푸터*/
 footer a {
-    color: #534847
+    color: #ff4343
 }
 
 footer a:hover {
-    color: #7c7574
+    color: #ff4343
 }
 
 /*스크롤*/
