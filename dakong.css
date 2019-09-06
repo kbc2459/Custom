@@ -156,7 +156,7 @@ header #right-search-form > #right-search-btn {
 /*인포영역*/
 #board-info {
     height: auto;
-    box-shadow: #ff4343 0px 3px 2px 1px;
+    box-shadow: #ff4343 0px 2px 2px 0px;
 }
 #board-info #viewers-area, #board-info #score-area{color: #ff4343;}
 
