@@ -155,6 +155,7 @@ header #right-search-form > #right-search-btn {
     height: auto;
     border-bottom: 2px solid #ff4343;
 }
+#board-info #viewers-area, #board-info #score-area{color: #ff4343;}
 
 #board-info #board-info-profile-img {
     width: 100px;
