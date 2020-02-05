@@ -162,7 +162,7 @@ header #right-search-form > #right-search-btn {
 background:rgba(255,255,255,0)
 }
 
-#main div > #main-menu > div{background:rgba(255,255,255,0)}
+#main div > #main-menu > div{background:rgba(255,255,255,0) !important}
 #main #main-content>div.frame{background:rgba(255,255,255,0)}
 
 /*인포영역*/
@@ -428,7 +428,7 @@ footer a:hover {
 
 /*인기글*/
 #article-list > .article-list-row.hot {
-    background-color: #fff;
+    background-color: rgba(255,255,255,0);
     border: 1px solid #ffd4d0;
     margin-bottom: 5px;
 }
@@ -656,5 +656,7 @@ header {
 
 @media screen and (max-width: 1200px) { 
      body { background-color: #1f1f1f; }
+     #main .menu-wrapper>a{color:#fff}
+     #article-list>.article-list-row>.item>.list-title>a{color:#fff}
 }
 
