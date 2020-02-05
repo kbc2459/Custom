@@ -440,7 +440,7 @@ footer a:hover {
 
 /*상단인원*/
 #board-info #viewers-area {
-    color: #ffffff
+    color: #ff4343
 }
 
 #board-info #viewers-area .fa-user:before {
@@ -451,7 +451,7 @@ footer a:hover {
 #board-info #viewers-area #viewers:before {
     content: "콩크리트";
     cursor: text;
-    color: #ffffff;
+    color: #ff4343;
 }
 
 #board-info #viewers-area #viewers:after {
