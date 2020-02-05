@@ -5,7 +5,8 @@
 
 /*로고*/
 header > #header-area > a > h1 {
-    background: url(https://kbc2459.github.io/Custom/dakong.png) no-repeat contain;
+    background: url(https://kbc2459.github.io/Custom/dakong.png) no-repeat;
+    background-size:contain;
     width: 125px;
     margin-top: 4px;
 }
