@@ -1,6 +1,6 @@
-@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css); 
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap&subset=korean'); 
 * {
-     font-family: 'Nanum Gothic Coding', monospace; 
+     font-family: 'Noto Sans KR', sans-serif;
 }
 
 /*바디*/
@@ -663,6 +663,7 @@ header {
      #article-list>.article-list-row>.item>.list-header>strong, #article-list>.article-list-row>.item>.list-header>b{color:##ff4343}
      #article-list>.article-list-row>.item>.list-title>.list-category>span{color:#fff}
      #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover{background:rgba(255,255,255,0)}
+     header #header-bar #header-menu-left #favoriteDropdown{padding:0}
 
 }
 
