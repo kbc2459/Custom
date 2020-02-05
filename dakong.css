@@ -653,3 +653,8 @@ header {
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{border:none;border-bottom: 1pxs solid #ff4343}
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header{background:transparent;border-bottom: 1px dotted #ff4343;}
+
+@media screen and (max-width: 1200px) { 
+     body { background-color: #1f1f1f; }
+}
+
