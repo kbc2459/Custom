@@ -38,6 +38,7 @@ header .row > div:nth-child(1) > a {
 header #header-bar > .row {
     border: none;
     border-bottom: 2px solid #ff4343;
+     background:rgba(255,255,255,0)
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
@@ -157,6 +158,12 @@ header #right-search-form > #right-search-btn {
 #main .menu-wrapper .spacer {
     background: #ff4343;
 }
+#main .menu-wrapper>a{
+background:rgba(255,255,255,0)
+}
+
+#main div > #main-menu > div{background:rgba(255,255,255,0)}
+#main #main-content>div.frame{background:rgba(255,255,255,0)}
 
 /*인포영역*/
 #board-info {
@@ -380,12 +387,12 @@ footer a:hover {
 
 /*게시판 텝메뉴*/
 #article-list{
-    background: #ffffff;
+    background: rgba(255,255,255,0);
 }
 #article-list #article-list-category > a {
     width: auto;
     margin: 0 5px 5px 0;
-    background: #fff;
+    background: rgba(255,255,255,0);
     border-top: none;
     position: relative;
     top: 3px;
@@ -414,7 +421,7 @@ footer a:hover {
 
 /*공지사항*/
 #article-list > .article-list-row.notice {
-    background-color: #fff;
+    background-color: rgba(255,255,255,0);
     border: 1px solid #ff4343;
     margin-bottom: 5px;
 }
