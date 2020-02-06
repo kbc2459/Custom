@@ -172,7 +172,7 @@ background:rgba(255,255,255,0)
     box-shadow: #ff4343 0px 0px 2px 0px;
 }
 #board-info #viewers-area, #board-info #score-area{color: #ff4343;}
-
+#board-info #score-area{display:none}
 #board-info #board-info-profile-img {
     width: 100px;
     border-radius: 50%;
@@ -459,7 +459,10 @@ footer a:hover {
 
 /*상단인원*/
 #board-info #viewers-area {
-    color: #ff4343
+    color: #ff4343;
+    position: relative;
+    left: -170px;
+    top: 10px;
 }
 
 #board-info #viewers-area .fa-user:before {
@@ -559,6 +562,11 @@ small.favo i.fa.fa-heart:before {
 }
 
 /*방송시작*/
+#board-info h1>a.badge.badge-live{
+display: inline-block;
+    position: relative;
+    top: 40px;
+}
 #board-info h1 > a.badge.badge-live::after {
     font-size: 12px;
     content: "사장출근";
