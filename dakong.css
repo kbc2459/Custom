@@ -557,11 +557,13 @@ small.favo i.fa.fa-heart:before {
     transform: scale(1.025);
     box-shadow: #ff4343 0px 0px 12px 0px;
     transition: all 0.35s;
+    background:rgba(255,67,67,0.4)
 }
 #article-list div.article-list-row.notice:hover {
     transform: scale(1.025);
     box-shadow: #ff4343 0px 0px 12px 0px;
     transition: all 0.35s;
+     background:rgba(255,67,67,0.4) 
 }
 
 /*게시글 밑줄*/
