@@ -655,7 +655,7 @@ header {
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header{background:transparent;border-bottom: 1px dotted #ff4343;}
 
 @media screen and (max-width: 1200px) { 
-     body { background-color: #1f1f1f; }
+     body { background-color: #1f1f1f;color:#fff }
      #main .menu-wrapper>a{color:#fff !important}
      #article-list>.article-list-row>.item>.list-title>a{color:#fff !important}
      #main .menu-wrapper>a{border-bottom:none !important}
