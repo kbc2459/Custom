@@ -32,6 +32,7 @@ header .row > div:nth-child(1) > a {
     height: 50px;
     background: url(https://kbc2459.github.io/Custom/dakong.png) no-repeat;
     background-size: contain;
+    display:none;
 }
 
 /*헤더바*/
@@ -195,7 +196,13 @@ background:rgba(255,255,255,0)
 #board-info h1{border: none}
 #board-info h1 > a {
     color: #ff4343;
-    font-weight: bold
+    font-weight: bold;
+    background: url(https://kbc2459.github.io/Custom/dakong.png) no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    text-indent: -9999px; 
 }
 
 #board-info #board-info-bottom a {
