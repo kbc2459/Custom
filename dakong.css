@@ -664,7 +664,7 @@ header {
      #article-list>.article-list-row>.item>.list-title>.list-category>span{color:#fff}
      #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover{background:rgba(255,255,255,0)}
      header #header-bar #header-menu-left #favoriteDropdown{padding:0}
-     #article-list .article-list-row:hover~#article-list>.article-list-row>.item>.list-title>a{color:#000}
+     #article-list .article-list-row:hover ~ .item>.list-title>a{color:#000}
 
 }
 
