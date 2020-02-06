@@ -193,7 +193,12 @@ background:rgba(255,255,255,0)
     top: -7px;
     transition: all 0.5s
 }
-#board-info h1{border: none}
+#board-info h1{
+     border: none;
+    position: absolute;
+    top: -130px;
+    left: -180px;
+}
 #board-info h1 > a {
     color: #ff4343;
     font-weight: bold;
