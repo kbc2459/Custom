@@ -20,7 +20,9 @@ header #header-bar #header-menu-left #playgroundDropdown{
 }
 html,
 body {}
-
+header .container .row .col-xs-4 img {
+    display: none
+}
 /*로고*/
 header .row > div:nth-child(1) > a {
     display: block;
