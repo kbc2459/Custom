@@ -441,9 +441,6 @@ footer a:hover {
 /*상단인원*/
 #board-info #viewers-area {
     color: #ff4343;
-    position: relative;
-    left: -25px;
-    top: 10px;
 }
 
 #board-info #viewers-area .fa-user:before {
