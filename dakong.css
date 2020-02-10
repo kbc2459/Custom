@@ -541,11 +541,6 @@ small.favo i.fa.fa-heart:before {
 }
 
 /*방송시작*/
-#board-info h1>a.badge.badge-live{
-display: inline-block;
-    position: relative;
-    top: 40px;
-}
 #board-info h1 > a.badge.badge-live::after {
     font-size: 12px;
     content: "사장출근";
