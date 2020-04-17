@@ -165,7 +165,7 @@ background:rgba(255,255,255,0)
 
 /*인포영역*/
 #board-info h1>a{font-size:50px;font-weight:700;color:#ff4343}
-
+#board-info h1>a.badge.badge-live{font-weight:200;font-size:12px;}
 #board-info {
     height: auto;
     box-shadow: #ff4343 0px 0px 2px 0px;
