@@ -548,18 +548,18 @@ small.favo i.fa.fa-heart:before {
 }
 
 /*게시글 호버*/
-#article-list .article-list-row:hover{
+/*#article-list .article-list-row:hover{
     transform: scale(1.025);
     box-shadow: #ff4343 0px 0px 12px 0px;
     transition: all 0.35s;
     background:rgba(255,67,67,0.4)
-}
-#article-list div.article-list-row.notice:hover {
+}*/
+/*#article-list div.article-list-row.notice:hover {
     transform: scale(1.025);
     box-shadow: #ff4343 0px 0px 12px 0px;
     transition: all 0.35s;
      background:rgba(255,67,67,0.4) 
-}
+}*/
 
 /*게시글 밑줄*/
 #article-list > .article-list-row > .item > .list-checkbox,
@@ -655,8 +655,8 @@ header {
 
 #article-list>.article-list-row{position: relative;}
 #article-list>.article-list-row::before,#article-list>.article-list-row::after{content:'';position:absolute;top:50%;left:50%; transform: translate(-50%, -50%);width:100%;height:100%;transition:all 0.2s}
-#article-list>.article-list-row::before{border-top:2px solid rgba(255,0,0,0.5);;border-bottom:2px solid rgba(255,0,0,0.5);width:0;}
-#article-list>.article-list-row::after{border-left:2px solid rgba(255,0,0,0.5);;border-right:2px solid rgba(255,0,0,0.5);height:0;}
+#article-list>.article-list-row::before{border-top:3px solid rgba(255,67,67,0.5);;border-bottom:3px solid rgba(255,67,67,0.5);width:0;}
+#article-list>.article-list-row::after{border-left:3px solid rgba(255,67,67,0.5);;border-right:3px solid rgba(255,67,67,0.5);height:0;}
 #article-list>.article-list-row:hover::before{width:100%}
 #article-list>.article-list-row:hover::after{height:100%}
 
