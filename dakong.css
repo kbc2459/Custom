@@ -651,6 +651,16 @@ header {
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{border:none;border-bottom: 1pxs solid #ff4343}
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header{background:transparent;border-bottom: 1px dotted #ff4343;}
 
+#article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time{border-bottom:none}
+
+#article-list>.article-list-row{position: relative;}
+#article-list>.article-list-row::before,#article-list>.article-list-row::after{content:'';position:absolute;top:50%;left:50%; transform: translate(-50%, -50%);width:100%;height:100%;transition:all 0.2s}
+#article-list>.article-list-row::before{border-top:2px solid rgba(255,0,0,0.5);;border-bottom:2px solid rgba(255,0,0,0.5);width:0;}
+#article-list>.article-list-row::after{border-left:2px solid rgba(255,0,0,0.5);;border-right:2px solid rgba(255,0,0,0.5);height:0;}
+#article-list>.article-list-row:hover::before{width:100%}
+#article-list>.article-list-row:hover::after{height:100%}
+
+
 @media screen and (max-width: 1200px) { 
      body { background-color: #1f1f1f;color:#fff }
      #main .menu-wrapper>a{color:#fff !important}
