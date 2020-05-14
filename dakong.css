@@ -236,7 +236,9 @@ background:rgba(255,255,255,0)
     border-right: none
 }
 
-#article-list > .article-list-row:hover {}
+#article-list > .article-list-row:hover {
+background:none;
+}
 
 
 
