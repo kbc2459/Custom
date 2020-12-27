@@ -198,6 +198,8 @@ background:rgba(255,255,255,0)
 }
 
 /*게시판*/
+#article-list>.article-list-row>.item>.list-title>.list-category{border-left:none !important;border-right:none !important;margin-left: 18px;}
+#article-list>.article-list-row>.item>.list-title>small.favo{left: -94px;}
 #article-list #article-option-area > #article-option-area-toggle-btn {
     display: none
 }
