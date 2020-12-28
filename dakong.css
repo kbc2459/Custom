@@ -198,6 +198,7 @@ background:rgba(255,255,255,0)
 }
 
 /*게시판*/
+/* 2020.12.28 다콩 좋아요 변경 */
 #article-list > .article-list-row{position:relative;}
 #article-list>.article-list-row>.item>.list-title>.list-category{position:relative;z-index:1;}
 #article-list>.article-list-row>.item>.list-title>a{position:relative;z-index:1;}
@@ -205,6 +206,9 @@ background:rgba(255,255,255,0)
 #article-list>.article-list-row>.item>.list-title>.list-writer{position:relative;z-index:1;}
 #article-list>.article-list-row>.item>.list-title>small.favo{position: absolute;float:inherit;display:block;width:100%;height:100%;background:rgba(255,200,200,0.2);left:0;top:0}
 span.a-badge{position:relative;z-index:1;}
+.fa-heart:before{content:" "}
+
+
 #article-list #article-option-area > #article-option-area-toggle-btn {
     display: none
 }
