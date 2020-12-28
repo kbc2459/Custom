@@ -207,6 +207,7 @@ background:rgba(255,255,255,0)
 #article-list>.article-list-row>.item>.list-title>small.favo{position: absolute;float:inherit;display:block;width:100%;height:100%;background:rgba(255,200,200,0.2);left:0;top:0}
 span.a-badge{position:relative;z-index:1;}
 .fa-heart:before{content:" "}
+small.favo::after {content: "완료";display: block;position: absolute;right: 0;top: 0;width: 12px;height: 100%;z-index: 10;line-height: 17px;color:#292929}
 
 
 #article-list #article-option-area > #article-option-area-toggle-btn {
